@@ -98,3 +98,61 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+
+## Installation and Setup
+
+Follow these steps to set up the Deal Oracle dashboard on your local machine:
+
+### Prerequisites
+
+- Node.js (v16.0.0 or higher)
+- npm (v7.0.0 or higher)
+
+### Installation Steps
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-organization/value-dashboard.git
+   cd value-dashboard
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+   
+   This will start the development server at [http://localhost:5173](http://localhost:5173) (default Vite port).
+
+4. **Build for production**
+
+   When you're ready to deploy the application:
+
+   ```bash
+   npm run build
+   ```
+
+   This will generate optimized production files in the `dist` directory.
+
+5. **Preview the production build locally**
+
+   ```bash
+   npm run preview
+   ```
+
+### Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the app for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check for code issues
+- `npm run type-check` - Run TypeScript type-checking
+
+
