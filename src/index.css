@@ -1,0 +1,102 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* Universal Blue primary colors */
+    --primary: 196 61% 40%;  /* Based on universal-blue-500 */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 196 46% 80%; /* Based on universal-blue-100 */
+    --secondary-foreground: 196 66% 27%; /* Based on universal-blue-900 */
+
+    --muted: 196 30% 90%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 196 46% 80%;
+    --accent-foreground: 196 66% 27%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 196 30% 85%;
+    --input: 196 30% 85%;
+    --ring: 196 61% 40%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 196 66% 27%; /* universal-blue-900 */
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 196 61% 40%; /* universal-blue-500 */
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 196 46% 80%; /* universal-blue-100 */
+    --sidebar-accent-foreground: 196 66% 27%; /* universal-blue-900 */
+    --sidebar-border: 196 55% 35%;
+    --sidebar-ring: 196 61% 40%;
+  }
+
+  .dark {
+    --background: 196 66% 13%;  /* Darker version of universal-blue-900 */
+    --foreground: 210 40% 98%;
+
+    --card: 196 66% 15%;  /* Slightly lighter version of background */
+    --card-foreground: 210 40% 98%;
+
+    --popover: 196 66% 15%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 196 61% 40%;  /* universal-blue-500 */
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 196 55% 25%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 196 55% 25%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 196 55% 25%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 196 55% 25%;
+    --input: 196 55% 25%;
+    --ring: 196 61% 40%;
+    
+    --sidebar-background: 196 66% 15%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 196 61% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 196 55% 25%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 196 55% 25%;
+    --sidebar-ring: 196 61% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  /* Apply Calibri across all elements for consistency */
+  h1, h2, h3, h4, h5, h6, p, span, div, button, a, input, select, textarea {
+    @apply font-sans;
+  }
+}
