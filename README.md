@@ -1,8 +1,8 @@
-# Springer Nature Value Dashboard
+# Deal Oracle
 
 ## Overview
 
-The Springer Nature Value Dashboard aims to inform the TA performance team with actionable insights and metrics to effectively pitch high potential Transformative Agreement (TA) deals with institutions and research funders by identifying the source of APC invoices.
+The Deal Oracle aims to inform the TA performance team with actionable insights and metrics to effectively pitch high potential Transformative Agreement (TA) deals with institutions and research funders by identifying the source of APC invoices.
 
 By aggregating data from APC payments and disclosures of research funding from OASiS, this dashboard demonstrates the business impact and benefits of TA deals for research funders and institutions that are already paying for the APCs, but don't have a TA deal with Springer Nature yet.
 
@@ -28,7 +28,7 @@ Springer Nature is missing out on high-potential Transformative Agreement (TA) d
 
 ## Solution
 
-The Springer Nature Value Dashboard aggregates APC payment data (via OASiS) to:
+The Deal Oracle aggregates APC payment data (via OASiS) to:
 
 1. **Expose Opportunity**:
    - Leaderboards of institutions/funders based on APC spend
